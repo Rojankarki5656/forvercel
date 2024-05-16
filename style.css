@@ -1,0 +1,87 @@
+html{
+    box-sizing: border-box;
+    height: 100%;
+}
+
+body{
+    background : linear-gradient(360deg,#eb92be, #63c9b4, #ffef);
+    display: flex;
+    justify-content: center;
+    height: inherit;
+    align-items: center;
+
+}
+.container{
+    backdrop-filter: blur(5.5px);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    backdrop-filter: blur(5.5px);
+    border-radius: 16px;
+    color: #232323;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.34);
+    width: 50%;
+    height: 70%;
+    padding: 20px 35px;
+}    
+.screen{
+    background: rgba(255, 255, 255, 0.75);
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 30px rgba(35, 35, 35, 0.1);
+    font-size: 35px;
+    text-align: right;
+    overflow: auto;
+}
+.buttonrow{
+       display: flex;
+      justify-content: space-between;
+      margin: 5% 0;
+}
+.haha{
+    font-size: 30px;
+    backdrop-filter: blur(5.5PX);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 10px;
+    backdrop-filter: blur(5.5px);
+    color: #232323;
+    width: 65px;
+    height: 65px;
+
+}
+.hahaa{
+    font-size: 30px;
+    backdrop-filter: blur(5.5PX);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 10px;
+    backdrop-filter: blur(5.5px);
+    color: #232323;
+    width: 65px;
+    height: 65px;
+
+}
+.hahaa:hover {
+    background-color: #eb92be;
+}
+.hahaaa{
+    font-size: 30px;
+    backdrop-filter: blur(5.5PX);
+    -webkit-backdrop-filter: blur(5.5px);
+    background: rgba(255, 255, 255, 0.75);
+    border: 1px solid rgba(255, 255, 255, 0.01);
+    border-radius: 10px;
+    backdrop-filter: blur(5.5px);
+    color: #232323;
+    width: 150px;
+    height: 65px;
+}
+.hahaaa:hover {
+    background-color: #eb92be;
+}
